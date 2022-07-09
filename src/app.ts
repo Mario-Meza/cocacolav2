@@ -19,7 +19,7 @@ const DEFAULT_CIGARS = [
                         position: {
                                 x: -0.046,
                                 y: -0.046,
-                                z: 0.085
+                                z: 0.097
                         },
                         rotation: {
                                 x: 0,
