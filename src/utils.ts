@@ -9,7 +9,7 @@ import fetch from "node-fetch";
 export function translate(transformLike: Partial<ScaledTransformLike>) {
         const pos = transformLike.position ? transformLike.position : { x: 0, y: 0, z: 0 };
         const rot = transformLike.rotation ? transformLike.rotation : { x: 0, y: 0, z: 0 };
-        const scale = transformLike.scale ? transformLike.scale : { x: 2.8, y: 2.8, z: 3.0 };
+        const scale = transformLike.scale ? transformLike.scale : { x: 3.0, y: 3.0, z: 3.0 };
         const transform = new ScaledTransform();
         transform.copy({
                 position: pos,

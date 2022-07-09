@@ -17,9 +17,9 @@ const DEFAULT_CIGARS = [
                 resourceId: 'artifact:2041572583530300091',
                 transform: {
                         position: {
-                                x: -0.046,
-                                y: -0.046,
-                                z: 0.097
+                                x: -0.040,
+                                y: -0.040,
+                                z: 0.091
                         },
                         rotation: {
                                 x: 0,
